@@ -1,1 +1,2 @@
 ErrorDocument 404 /wmh9227/235/error/error.html
+DirectoryIndex noterror.html
