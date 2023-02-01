@@ -1,60 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> <!--Required for Validation-->
+    <head>
+        <meta charset="UTF-8"><!--Required this for validation-->
+        <title> Dig Dug</title> <!--Required this for validation-->
+        <style>
+            h1 { 
+                color:red;
+                font-family: sans-serif;
+                border-bottom: 1px solid blue;
+                }
+            blockquote { 
+                background-color: lightgray;
+                padding: 1rem;
+                }
+        </style>
+    </head>
+        <header>
+                <h1>Dig Dug</h1>
+            
+            <h2>
+                Publishing Info
+            </h2>
+                <ul>
+                    <li>Published by: Atari, Inc.</li>
+                    <li>Developed by: Namco Limited</li>
+                    <li>Released: Apr, 1982</li>
+                </ul>
+        </header>       
+        
 
-<head>
-    <style>
-        h1 { 
-            color:red;
-            font-family: sans-serif;
-            border-bottom: 1px solid blue;
-            }
-        blockquote { 
-            background-color: lightgray;
-            padding: 1rem;
-            }
-    </style>
-    <h1>
-Dig Dug
-    </h1>
-    
+    <!--</head> When Head was here I was getting a
+    hanging closing tag error-->
+    <!--<body> was getting validation error-->
+        <main>
+            <img src = "dig-dug-burnt.png" alt = "logo" >
+            <hr>
+            <br>Description
+            <!--<p>-->
+                Dig Dug is a 1-2 player <em>arcade game</em> in which you have to use your shovel to dig your way through the earth. Stopping you from doing this are two monsters, called Pooka and Fygar, who will continually chase you around. The only weapon that you carry is an air pump, which you can use to inflate the monsters to the point where they explode. [...]
+                <br>
+                <strong>Game Categories</strong>
+                <br>
+                <ul>
+                    <li>Genre: Action </li>
+                    <li>Perspective: Side view </li>
+                    <li>Visual: Fixed </li>
+                    <li>Gameplay: Arcade </li>  
+                </ul>
+            <!--</p>-->
+            <hr>
+        </main>
+        <footer>
+            <div id = "Source">
+                <h3>Quote</h3>
+                <blockquote> This definitely goes under the heading of "Games That We
+                    re Made While a Programmer Was on Drugs," or at least had a good
+                    imagination. And maybe they were into horror movies too.
+                </blockquote>
+                <p>-- https://www.mobygames.com/mobyrank/source/sourceId,540/</p>
+                
 
-<h2>
-Publishing Info
-
-Published by: Atari, Inc.
-Developed by: Namco Limited
-Released: Apr, 1982
-</h2>
-</head>
-<body>
-
-<img src = "dig-dug-burnt.png" alt = "logo" >
-<br>
-Description
-<p>
-Dig Dug is a 1-2 player arcade game in which you have to use your shovel to dig your way through the earth. Stopping you from doing this are two monsters, called Pooka and Fygar, who will continually chase you around. The only weapon that you carry is an air pump, which you can use to inflate the monsters to the point where they explode. [...]
-<br>
-
-Game Categories
-<br>
-
-Genre: Action <br>
-Perspective: Side view <br>
-Visual: Fixed <br>
-Gameplay: Arcade <br>
-
-
-Quote
-<blockquote>
-	This definitely goes under the heading of "Games That Were Made While a Programmer Was on Drugs," or at least had a good imagination. And maybe they were into horror movies too.
-</blockquote>
-    -- https://www.mobygames.com/mobyrank/source/sourceId,540/
-
-
-Source
-
-https://www.mobygames.com/game/arcade/dig-dug
-</p>
-</body>
-
+                    Source
+                    https://www.mobygames.com/game/arcade/dig-dug
+            </div>
+        </footer>
+        
+        
+    </body>
 </html>
