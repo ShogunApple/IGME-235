@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en"> <!--Required for Validation-->
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
         <meta charset="UTF-8"><!--Required this for validation-->
         <title> Dig Dug</title> <!--Required this for validation-->
+        <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
         <style>
             h1 { 
-                color:red;
+                color:#fcd600;
                 font-family: sans-serif;
                 border-bottom: 1px solid blue;
                 }
@@ -13,13 +18,52 @@
                 background-color: lightgray;
                 padding: 1rem;
                 }
+            body{
+                background-color: #981a00;
+                font-family: Arial, sans-serif;
+                }
+                h2
+                {
+                    color: #fcd600;
+                }
+                .side
+                {
+                    float:right;
+                    margin:0 12px;
+                }
+                a:link{
+                    color:#006c00;
+
+                }
+                a:visited{
+                    color:#006c00;
+
+                }
+                a:hover{
+                    color:#006c00;
+
+                }
+                a:active{
+                    color:#006c00;
+                }
+                main, header, footer, h1, h2{
+                    border:1px solid black;
+                    width: 80%;
+                    margin-top:0;
+                    margin-bottom: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    background-color: #fce783;
+
+                }
         </style>
+
     </head>
-    <body style="background-color:lightblue;">
+    <body >
         <header>
-            <img src = "images/dig-dug-logo.png" alt = "logo" style = "height: 100%; width: 100%;">
+            <img src = "images/dig-dug.svg" alt = "logo" style = "height: 100%; width: 100%;">
                 <h1>Dig Dug</h1>
-            
+                
             <h2>
                 Publishing Info
             </h2>
@@ -36,15 +80,17 @@
             <br>
             <a href = "big/pic1.html"> <img src = "images/bigimage.png" alt = "thumbnail" style = "height: 10%; width: 10%;"> </a>
             <br>
-            <a href = "big/pic2.html"> <img src = "images/digdug2.jpg" alt = "thumbnail" style = "height: 10%; width: 10%;"> </a>
+            <a href = "big/pic2.html"> <img class = side src = "images/digdug2.jpg" alt = "thumbnail" style = "height: 10%; width: 10%;"> </a>
             <br>
-            <a href = "big/pic3.html"> <img src = "images/digdug3.jpg" alt = "thumbnail" style = "height: 10%; width: 10%;"> </a>
+            <a href = "big/pic3.html"> <img class = side src = "images/digdug3.jpg" alt = "thumbnail" style = "height: 10%; width: 10%;"> </a>
             <br>
             <a href = "big/inflateImg.html"> <img src = "images/fygar_inflate.png" alt = "extra image"></a>
             
             <hr>
-            <br>Description
+            <br>
+            <p style = "margin-left: 100px"> Description: </p>
                 Dig Dug is a 1-2 player <em>arcade game</em> in which you have to use your shovel to dig your way through the earth. Stopping you from doing this are two monsters, called Pooka and Fygar, who will continually chase you around. The only weapon that you carry is an air pump, which you can use to inflate the monsters to the point where they explode. [...]
+                <br>
                 <br>
                 <strong>Game Categories</strong>
                 <br>
