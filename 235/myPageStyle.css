@@ -1,0 +1,54 @@
+
+h1{
+    text-align: center;
+}
+body{
+    background-color: #031e20;
+}
+h1, h2{
+    color: #395d5f;
+    padding: 10px;
+    margin:10px;
+}
+main, header, footer, h1, h2{
+    border:1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #0b3a3d;
+}
+.link
+{
+    color:#627c7d;
+    margin:10px;
+    padding: 1px;
+    display:inline-block;
+}
+.image
+{
+    padding: 10px;
+}
+#Description
+{
+    width: 75%;
+    margin:0 auto;
+    text-align: center;
+    padding: 50px;
+    
+}
+#Title
+{
+    font-weight:bold;
+}
+
+a:visited{
+    color:#0b3a3d;
+}
+a:hover{
+    color:#627c7d;
+}
+a:active{
+    color: #627c7d;
+}
+
+
+
