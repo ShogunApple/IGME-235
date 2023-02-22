@@ -1,0 +1,28 @@
+/* Do everything in this file */
+h1, h2, h3{
+    border-bottom: 1px solid red;
+}
+figure{
+    float: right;
+    width: 40%;
+    margin-right: 10px;
+}
+figure img{
+    width: 100%;
+}
+h2{
+    clear:both;
+}
+.tet, .tet-square, .tet-long{
+    float: left;
+    width:40%;
+    margin:10px;
+    border:1px solid red;
+}
+footer{
+    clear:both;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -10;
+}
